@@ -1,0 +1,93 @@
+body {
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    display: flex;
+    background-color: #05080a;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    font-size: 20px
+}
+
+.header__nav a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+a.bottom-nav{
+   background-color: #cbe300;
+   color: #0c1014;
+   pointer-events: none
+}
+
+.main_title{
+    text-transform: uppercase;
+    font-size: 62px;
+    text-align: center;
+}
+    
+.card__main{
+    display: flex;
+    gap: 16px;
+}
+
+.card{
+    background-color: #1f262c;
+    padding: 16px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card__title{
+    text-transform: uppercase;
+    border-bottom:  2px solid #cbe300;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.card__main ul{
+    line-height: 1.8;
+    padding-left: 16px;
+    margin: 0 0 35px;
+    
+}
+
+.botao_card{
+    background-color: #cbe300;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 16px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(99, 95, 95);
+    text-transform: uppercase;
+}   
+
+.botao_card:hover{
+    background-color: #1f1d1a;
+}
